@@ -7,7 +7,6 @@ export class WheelBtn extends Component {
     }
 
     update(deltaTime: number) {
-        
     }
 }
 

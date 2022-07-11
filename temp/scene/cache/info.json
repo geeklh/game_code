@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+        "version": "Windows 10 Enterprise"
+    },
+    "sceneListMap": {
+        "b567dfe6-c5c1-499d-8eed-704e156eb547": "E:\\cocos\\game_code\\assets\\scene.scene"
+    },
+    "deviceMd5": "7b9ad93a81879b1d9cf0aefecf73546a"
+}

@@ -606,3 +606,76 @@ You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild
 2022-07-10T13:56:24.647Z - verbose: [Scene] Configure engine (0ms)
 2022-07-10T13:56:23.798Z - info: [Scene] Forward render pipeline initialized.
 2022-07-10T23:53:01.081Z - warn: Metrics: no valid info
+2022-07-11T01:17:02.688Z - log: [Package] menu@1.0.0 enable
+2022-07-11T01:17:02.690Z - log: [Package] profile@1.0.0 enable
+2022-07-11T01:17:02.698Z - log: [Package] project@1.0.2 enable
+2022-07-11T01:17:02.703Z - log: [Package] messages@1.0.0 enable
+2022-07-11T01:17:02.708Z - log: [Package] program@1.0.0 enable
+2022-07-11T01:17:02.714Z - log: [Package] tester@1.0.0 enable
+2022-07-11T01:17:02.719Z - log: [Package] preferences@1.0.0 enable
+2022-07-11T01:17:03.290Z - log: Setup mods mgr.: 279.296ms
+2022-07-11T01:17:03.294Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-11T01:17:03.300Z - verbose: [Engine] QuickCompile engine (525ms)
+2022-07-11T01:17:03.302Z - log: [Package] engine@1.0.6 enable
+2022-07-11T01:17:04.155Z - log: [Package] programming@1.0.0 enable
+2022-07-11T01:17:04.513Z - log: [Package] device@1.0.1 enable
+2022-07-11T01:17:04.543Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-11T01:17:04.575Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-11T01:17:04.635Z - log: [Package] asset-db@1.0.0 enable
+2022-07-11T01:17:04.669Z - log: [Package] scene@1.0.0 enable
+2022-07-11T01:17:04.840Z - log: [Package] server@1.0.0 enable
+2022-07-11T01:17:04.934Z - log: [Package] utils@1.0.0 enable
+2022-07-11T01:17:08.237Z - log: [Package] preview@1.0.1 enable
+2022-07-11T01:17:08.266Z - log: [Package] animator@1.0.0 enable
+2022-07-11T01:17:09.166Z - log: [Package] builder@1.3.2 enable
+2022-07-11T01:17:09.202Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-11T01:17:09.233Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-11T01:17:09.265Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-11T01:17:09.295Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-11T01:17:09.333Z - log: [Package] about@1.0.0 enable
+2022-07-11T01:17:09.367Z - log: [Package] assets@1.0.0 enable
+2022-07-11T01:17:09.412Z - log: [Package] console@1.0.0 enable
+2022-07-11T01:17:09.583Z - log: [Package] extension@3.0.16 enable
+2022-07-11T01:17:09.630Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-11T01:17:09.678Z - log: [Package] inspector@1.0.0 enable
+2022-07-11T01:17:09.725Z - log: [Package] lightmap@1.0.4 enable
+2022-07-11T01:17:09.772Z - log: [Package] node-library@1.0.1 enable
+2022-07-11T01:17:09.806Z - log: [Package] package-asset@1.0.0 enable
+2022-07-11T01:17:09.807Z - verbose: [AssetDB] Require engine code (1033ms)
+2022-07-11T01:17:09.839Z - log: [Package] process@1.0.0 enable
+2022-07-11T01:17:09.872Z - log: [Package] reference-image@1.0.0 enable
+2022-07-11T01:17:09.894Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-11T01:17:09.920Z - log: [Package] android@1.0.0 enable
+2022-07-11T01:17:09.945Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-11T01:17:09.968Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-11T01:17:09.991Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-11T01:17:10.016Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-11T01:17:10.040Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-11T01:17:10.065Z - log: [Package] ios@1.0.0 enable
+2022-07-11T01:17:10.089Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-11T01:17:10.111Z - log: [Package] link-sure@1.0.0 enable
+2022-07-11T01:17:10.134Z - log: [Package] linux@1.0.0 enable
+2022-07-11T01:17:10.158Z - log: [Package] mac@1.0.0 enable
+2022-07-11T01:17:10.287Z - log: [Package] native@1.0.0 enable
+2022-07-11T01:17:10.311Z - log: [Package] ohos@1.0.0 enable
+2022-07-11T01:17:10.343Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-11T01:17:10.371Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-11T01:17:10.403Z - log: [Package] qtt@1.0.0 enable
+2022-07-11T01:17:10.435Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-11T01:17:10.479Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-11T01:17:10.525Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-11T01:17:10.571Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-11T01:17:10.608Z - log: [Package] windows@1.0.0 enable
+2022-07-11T01:17:10.640Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-11T01:17:10.905Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-11T01:17:10.942Z - log: [Package] importer@1.0.0 enable
+2022-07-11T01:17:11.218Z - log: [Im-plugin] Check im-plugin version.
+2022-07-11T01:17:11.229Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-11T01:17:12.147Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-11T01:17:22.366Z - verbose: [Scene] Require engine code (1ms)
+2022-07-11T01:17:22.367Z - verbose: [Scene] Startup engine (0ms)
+2022-07-11T01:17:22.394Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-11T01:17:22.883Z - verbose: [Scene] Open engine (515ms)
+2022-07-11T01:17:22.884Z - verbose: [Scene] Configure engine (0ms)
+2022-07-11T01:17:22.458Z - info: [Scene] Forward render pipeline initialized.
+2022-07-11T01:31:09.728Z - warn: Metrics: no valid info
