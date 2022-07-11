@@ -1,0 +1,608 @@
+2022-07-10T00:33:42.894Z - log: [Package] menu@1.0.0 enable
+2022-07-10T00:33:42.900Z - log: [Package] profile@1.0.0 enable
+2022-07-10T00:33:42.926Z - log: [Package] project@1.0.2 enable
+2022-07-10T00:33:42.939Z - log: [Package] messages@1.0.0 enable
+2022-07-10T00:33:42.961Z - log: [Package] program@1.0.0 enable
+2022-07-10T00:33:42.974Z - log: [Package] tester@1.0.0 enable
+2022-07-10T00:33:43.048Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T00:33:44.592Z - log: Setup mods mgr.: 483.769ms
+2022-07-10T00:33:44.598Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T00:33:44.614Z - verbose: [Engine] QuickCompile engine (1392ms)
+2022-07-10T00:33:44.619Z - log: [Package] engine@1.0.6 enable
+2022-07-10T00:33:45.856Z - log: [Package] programming@1.0.0 enable
+2022-07-10T00:33:46.201Z - log: [Package] device@1.0.1 enable
+2022-07-10T00:33:46.234Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T00:33:46.277Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T00:33:46.359Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T00:33:46.438Z - log: [Package] scene@1.0.0 enable
+2022-07-10T00:33:47.138Z - log: [Package] server@1.0.0 enable
+2022-07-10T00:33:47.294Z - log: [Package] utils@1.0.0 enable
+2022-07-10T00:33:53.468Z - log: [Package] preview@1.0.1 enable
+2022-07-10T00:33:53.538Z - log: [Package] animator@1.0.0 enable
+2022-07-10T00:33:55.229Z - log: Profile changed: builder (log.level: 4)
+2022-07-10T00:33:55.240Z - log: [Package] builder@1.3.2 enable
+2022-07-10T00:33:55.301Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T00:33:55.363Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T00:33:55.413Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T00:33:55.445Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T00:33:55.579Z - log: [Package] about@1.0.0 enable
+2022-07-10T00:33:55.638Z - log: [Package] assets@1.0.0 enable
+2022-07-10T00:33:55.749Z - log: [Package] console@1.0.0 enable
+2022-07-10T00:33:56.203Z - log: [Package] extension@3.0.16 enable
+2022-07-10T00:33:56.261Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T00:33:56.320Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T00:33:56.409Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T00:33:56.475Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T00:33:56.521Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T00:33:56.559Z - log: [Package] process@1.0.0 enable
+2022-07-10T00:33:56.632Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T00:33:56.704Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T00:33:56.735Z - log: [Package] android@1.0.0 enable
+2022-07-10T00:33:56.764Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T00:33:56.788Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T00:33:56.833Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T00:33:56.864Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T00:33:56.891Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T00:33:58.458Z - warn: ios:未查询到开发者信息
+2022-07-10T00:33:58.458Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T00:33:58.461Z - log: [Package] ios@1.0.0 enable
+2022-07-10T00:33:58.489Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T00:33:58.522Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T00:33:58.553Z - log: [Package] linux@1.0.0 enable
+2022-07-10T00:33:58.581Z - log: [Package] mac@1.0.0 enable
+2022-07-10T00:33:58.781Z - log: [Package] native@1.0.0 enable
+2022-07-10T00:33:58.815Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T00:33:58.821Z - verbose: [AssetDB] Require engine code (3772ms)
+2022-07-10T00:33:58.843Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T00:33:58.871Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T00:33:58.900Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T00:33:58.929Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T00:33:58.980Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T00:33:59.074Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T00:33:59.218Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T00:33:59.268Z - log: [Package] windows@1.0.0 enable
+2022-07-10T00:33:59.307Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T00:33:59.734Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T00:33:59.999Z - log: [Package] importer@1.0.0 enable
+2022-07-10T00:34:00.487Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T00:34:00.503Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T00:34:01.401Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T00:34:17.487Z - verbose: [Scene] Require engine code (0ms)
+2022-07-10T00:34:17.488Z - verbose: [Scene] Startup engine (1ms)
+2022-07-10T00:34:17.538Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T00:34:18.212Z - verbose: [Scene] Open engine (723ms)
+2022-07-10T00:34:18.213Z - verbose: [Scene] Configure engine (1ms)
+2022-07-10T00:34:17.653Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T01:38:28.053Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} ReferenceError: word_one is not defined
+    at Object.execute (file:///Users/liheng/project/cocos/game_code/temp/programming/packer-driver/targets/editor/chunks/43/43458b17d003ddc02c3abb3ca64eb68668b87766.js:28:87)
+    at doExec (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:487:32)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:483:10)
+    at /Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at async file:///Users/liheng/project/cocos/game_code/temp/programming/packer-driver/targets/editor/chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js:13:13
+    at async Object.execute (file:///Users/liheng/project/cocos/game_code/temp/programming/packer-driver/targets/editor/chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js:8:7)
+    at async Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:208:13)
+    at async Executor.reload (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:130:9)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} ReferenceError: word_one is not defined
+    at /Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at async file:///Users/liheng/project/cocos/game_code/temp/programming/packer-driver/targets/editor/chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js:13:13
+    at async Object.execute (file:///Users/liheng/project/cocos/game_code/temp/programming/packer-driver/targets/editor/chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js:8:7)
+    at async Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:208:13)
+    at async Executor.reload (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:130:9)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:289)
+    at Logger.record (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5116)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3104)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:253:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/dist/executor/index.js:62:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:511:7)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:483:10)
+2022-07-10T01:38:28.061Z - warn: [Scene] Missing class: 5c48belqd1IzIb6a7910rBRError: [Scene] Missing class: 5c48belqd1IzIb6a7910rBR
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2218)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:102743:32)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:111572:24)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:111513:23)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:111722:32)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:111547:34)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:111519:23)
+2022-07-10T01:38:28.065Z - error: [Scene] Script "5c48belqd1IzIb6a7910rBR" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "5c48b7a5-a9dd-48cc-86fa-6bbf75d2b051"
+Class ID: "5c48belqd1IzIb6a7910rBR"
+Error: [Scene] Script "5c48belqd1IzIb6a7910rBR" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "5c48b7a5-a9dd-48cc-86fa-6bbf75d2b051"
+Class ID: "5c48belqd1IzIb6a7910rBR"
+
+    at report (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1187)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1283)
+    at /Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1979
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2348)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:812)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2143)
+2022-07-10T01:40:06.549Z - error: [Window] [Vue warn]: Error in v-on handler: "TypeError: Cannot read property 'value' of undefined"
+
+found in
+
+---> <TreeNode>
+       <Tree>
+         <Root>
+2022-07-10T01:40:06.549Z - error: [Window] Cannot read property 'value' of undefinedTypeError: Cannot read property 'value' of undefined
+    at VueComponent.renameChange (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/editor-extensions/extensions/hierarchy/dist/components/tree-node.ccc:1:2929)
+    at input (eval at createFunction (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/vue/dist/vue.js:11628:14), <anonymous>:3:1688)
+    at invokeWithErrorHandling (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/vue/dist/vue.js:1863:28)
+    at HTMLInputElement.invoker (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/vue/dist/vue.js:2188:16)
+    at HTMLInputElement.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/vue/dist/vue.js:7541:27)
+2022-07-10T01:45:47.578Z - warn: Metrics: no valid info
+2022-07-10T01:45:59.783Z - log: [Package] menu@1.0.0 enable
+2022-07-10T01:45:59.786Z - log: [Package] profile@1.0.0 enable
+2022-07-10T01:45:59.803Z - log: [Package] project@1.0.2 enable
+2022-07-10T01:45:59.810Z - log: [Package] messages@1.0.0 enable
+2022-07-10T01:45:59.817Z - log: [Package] program@1.0.0 enable
+2022-07-10T01:45:59.825Z - log: [Package] tester@1.0.0 enable
+2022-07-10T01:45:59.833Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T01:46:00.679Z - log: Setup mods mgr.: 369.924ms
+2022-07-10T01:46:00.683Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T01:46:00.692Z - verbose: [Engine] QuickCompile engine (778ms)
+2022-07-10T01:46:00.695Z - log: [Package] engine@1.0.6 enable
+2022-07-10T01:46:01.679Z - log: [Package] programming@1.0.0 enable
+2022-07-10T01:46:02.018Z - log: [Package] device@1.0.1 enable
+2022-07-10T01:46:02.052Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T01:46:02.087Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T01:46:02.178Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T01:46:02.271Z - log: [Package] scene@1.0.0 enable
+2022-07-10T01:46:02.600Z - log: [Package] server@1.0.0 enable
+2022-07-10T01:46:02.640Z - log: [Package] utils@1.0.0 enable
+2022-07-10T01:46:07.976Z - log: [Package] preview@1.0.1 enable
+2022-07-10T01:46:08.057Z - log: [Package] animator@1.0.0 enable
+2022-07-10T01:46:09.426Z - log: [Package] builder@1.3.2 enable
+2022-07-10T01:46:09.511Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T01:46:09.596Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T01:46:09.669Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T01:46:09.709Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T01:46:09.752Z - log: [Package] about@1.0.0 enable
+2022-07-10T01:46:09.839Z - log: [Package] assets@1.0.0 enable
+2022-07-10T01:46:09.994Z - log: [Package] console@1.0.0 enable
+2022-07-10T01:46:10.456Z - log: [Package] extension@3.0.16 enable
+2022-07-10T01:46:10.557Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T01:46:10.668Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T01:46:10.812Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T01:46:10.986Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T01:46:11.053Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T01:46:11.093Z - log: [Package] process@1.0.0 enable
+2022-07-10T01:46:11.196Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T01:46:11.266Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T01:46:11.296Z - log: [Package] android@1.0.0 enable
+2022-07-10T01:46:11.323Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T01:46:11.351Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T01:46:11.380Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T01:46:11.407Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T01:46:11.436Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T01:46:13.013Z - warn: ios:未查询到开发者信息
+2022-07-10T01:46:13.014Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T01:46:13.017Z - log: [Package] ios@1.0.0 enable
+2022-07-10T01:46:13.043Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T01:46:13.070Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T01:46:13.104Z - log: [Package] linux@1.0.0 enable
+2022-07-10T01:46:13.129Z - log: [Package] mac@1.0.0 enable
+2022-07-10T01:46:13.453Z - log: [Package] native@1.0.0 enable
+2022-07-10T01:46:13.479Z - verbose: [AssetDB] Require engine code (4127ms)
+2022-07-10T01:46:13.490Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T01:46:13.525Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T01:46:13.557Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T01:46:13.591Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T01:46:13.630Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T01:46:13.702Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T01:46:13.764Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T01:46:13.854Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T01:46:13.891Z - log: [Package] windows@1.0.0 enable
+2022-07-10T01:46:13.927Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T01:46:14.556Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T01:46:14.817Z - log: [Package] importer@1.0.0 enable
+2022-07-10T01:46:15.376Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T01:46:15.397Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T01:46:16.470Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T01:46:25.960Z - verbose: [Scene] Require engine code (1ms)
+2022-07-10T01:46:25.964Z - verbose: [Scene] Startup engine (2ms)
+2022-07-10T01:46:26.063Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T01:46:26.715Z - verbose: [Scene] Open engine (749ms)
+2022-07-10T01:46:26.715Z - verbose: [Scene] Configure engine (0ms)
+2022-07-10T01:46:26.318Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T04:03:31.325Z - warn: Metrics: no valid info
+2022-07-10T04:04:24.972Z - log: [Package] menu@1.0.0 enable
+2022-07-10T04:04:24.976Z - log: [Package] profile@1.0.0 enable
+2022-07-10T04:04:24.992Z - log: [Package] project@1.0.2 enable
+2022-07-10T04:04:24.999Z - log: [Package] messages@1.0.0 enable
+2022-07-10T04:04:25.004Z - log: [Package] program@1.0.0 enable
+2022-07-10T04:04:25.014Z - log: [Package] tester@1.0.0 enable
+2022-07-10T04:04:25.021Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T04:04:25.862Z - log: Setup mods mgr.: 381.282ms
+2022-07-10T04:04:25.865Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T04:04:25.874Z - verbose: [Engine] QuickCompile engine (770ms)
+2022-07-10T04:04:25.878Z - log: [Package] engine@1.0.6 enable
+2022-07-10T04:04:26.832Z - log: [Package] programming@1.0.0 enable
+2022-07-10T04:04:27.170Z - log: [Package] device@1.0.1 enable
+2022-07-10T04:04:27.200Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T04:04:27.229Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T04:04:27.321Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T04:04:27.396Z - log: [Package] scene@1.0.0 enable
+2022-07-10T04:04:27.713Z - log: [Package] server@1.0.0 enable
+2022-07-10T04:04:27.771Z - log: [Package] utils@1.0.0 enable
+2022-07-10T04:04:33.041Z - log: [Package] preview@1.0.1 enable
+2022-07-10T04:04:33.129Z - log: [Package] animator@1.0.0 enable
+2022-07-10T04:04:34.617Z - log: [Package] builder@1.3.2 enable
+2022-07-10T04:04:34.698Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T04:04:34.775Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T04:04:34.849Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T04:04:34.874Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T04:04:34.915Z - log: [Package] about@1.0.0 enable
+2022-07-10T04:04:34.999Z - log: [Package] assets@1.0.0 enable
+2022-07-10T04:04:35.084Z - log: [Package] console@1.0.0 enable
+2022-07-10T04:04:35.586Z - log: [Package] extension@3.0.16 enable
+2022-07-10T04:04:35.678Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T04:04:35.765Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T04:04:35.853Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T04:04:36.054Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T04:04:36.150Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T04:04:36.222Z - log: [Package] process@1.0.0 enable
+2022-07-10T04:04:36.350Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T04:04:36.416Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T04:04:36.454Z - log: [Package] android@1.0.0 enable
+2022-07-10T04:04:36.491Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T04:04:36.523Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T04:04:36.550Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T04:04:36.582Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T04:04:36.610Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T04:04:38.447Z - warn: ios:未查询到开发者信息
+2022-07-10T04:04:38.449Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T04:04:38.453Z - log: [Package] ios@1.0.0 enable
+2022-07-10T04:04:38.484Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T04:04:38.516Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T04:04:38.546Z - log: [Package] linux@1.0.0 enable
+2022-07-10T04:04:38.577Z - log: [Package] mac@1.0.0 enable
+2022-07-10T04:04:38.750Z - log: [Package] native@1.0.0 enable
+2022-07-10T04:04:38.786Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T04:04:38.818Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T04:04:38.822Z - verbose: [AssetDB] Require engine code (4396ms)
+2022-07-10T04:04:38.849Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T04:04:38.891Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T04:04:38.928Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T04:04:38.979Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T04:04:39.066Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T04:04:39.192Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T04:04:39.258Z - log: [Package] windows@1.0.0 enable
+2022-07-10T04:04:39.284Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T04:04:39.681Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T04:04:39.790Z - log: [Package] importer@1.0.0 enable
+2022-07-10T04:04:40.605Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T04:04:40.621Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T04:04:41.464Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T04:04:53.850Z - verbose: [Scene] Require engine code (0ms)
+2022-07-10T04:04:53.852Z - verbose: [Scene] Startup engine (1ms)
+2022-07-10T04:04:53.908Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T04:04:54.445Z - verbose: [Scene] Open engine (593ms)
+2022-07-10T04:04:54.446Z - verbose: [Scene] Configure engine (0ms)
+2022-07-10T04:04:54.029Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T04:04:55.910Z - warn: Metrics: no valid info
+2022-07-10T04:08:28.176Z - log: [Package] menu@1.0.0 enable
+2022-07-10T04:08:28.181Z - log: [Package] profile@1.0.0 enable
+2022-07-10T04:08:28.195Z - log: [Package] project@1.0.2 enable
+2022-07-10T04:08:28.203Z - log: [Package] messages@1.0.0 enable
+2022-07-10T04:08:28.206Z - log: [Package] program@1.0.0 enable
+2022-07-10T04:08:28.213Z - log: [Package] tester@1.0.0 enable
+2022-07-10T04:08:28.220Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T04:08:29.011Z - log: Setup mods mgr.: 361.186ms
+2022-07-10T04:08:29.015Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T04:08:29.025Z - verbose: [Engine] QuickCompile engine (736ms)
+2022-07-10T04:08:29.029Z - log: [Package] engine@1.0.6 enable
+2022-07-10T04:08:30.030Z - log: [Package] programming@1.0.0 enable
+2022-07-10T04:08:30.352Z - log: [Package] device@1.0.1 enable
+2022-07-10T04:08:30.386Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T04:08:30.439Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T04:08:30.524Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T04:08:30.646Z - log: [Package] scene@1.0.0 enable
+2022-07-10T04:08:30.954Z - log: [Package] server@1.0.0 enable
+2022-07-10T04:08:31.004Z - log: [Package] utils@1.0.0 enable
+2022-07-10T04:08:35.926Z - log: [Package] preview@1.0.1 enable
+2022-07-10T04:08:36.084Z - log: [Package] animator@1.0.0 enable
+2022-07-10T04:08:37.403Z - log: [Package] builder@1.3.2 enable
+2022-07-10T04:08:37.442Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T04:08:37.478Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T04:08:37.509Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T04:08:37.534Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T04:08:37.570Z - log: [Package] about@1.0.0 enable
+2022-07-10T04:08:37.609Z - log: [Package] assets@1.0.0 enable
+2022-07-10T04:08:37.645Z - log: [Package] console@1.0.0 enable
+2022-07-10T04:08:37.929Z - log: [Package] extension@3.0.16 enable
+2022-07-10T04:08:37.991Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T04:08:38.086Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T04:08:38.130Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T04:08:38.174Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T04:08:38.205Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T04:08:38.251Z - log: [Package] process@1.0.0 enable
+2022-07-10T04:08:38.291Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T04:08:38.315Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T04:08:38.340Z - log: [Package] android@1.0.0 enable
+2022-07-10T04:08:38.369Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T04:08:38.398Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T04:08:38.429Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T04:08:38.469Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T04:08:38.496Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T04:08:39.436Z - warn: ios:未查询到开发者信息
+2022-07-10T04:08:39.439Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T04:08:39.443Z - log: [Package] ios@1.0.0 enable
+2022-07-10T04:08:39.476Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T04:08:39.501Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T04:08:39.531Z - log: [Package] linux@1.0.0 enable
+2022-07-10T04:08:39.557Z - log: [Package] mac@1.0.0 enable
+2022-07-10T04:08:39.748Z - log: [Package] native@1.0.0 enable
+2022-07-10T04:08:39.789Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T04:08:39.801Z - verbose: [AssetDB] Require engine code (2635ms)
+2022-07-10T04:08:39.813Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T04:08:39.843Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T04:08:39.877Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T04:08:39.911Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T04:08:39.979Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T04:08:40.029Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T04:08:40.076Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T04:08:40.106Z - log: [Package] windows@1.0.0 enable
+2022-07-10T04:08:40.146Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T04:08:40.636Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T04:08:40.769Z - log: [Package] importer@1.0.0 enable
+2022-07-10T04:08:41.357Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T04:08:41.372Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T04:08:42.167Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T04:08:52.267Z - verbose: [Scene] Require engine code (0ms)
+2022-07-10T04:08:52.270Z - verbose: [Scene] Startup engine (1ms)
+2022-07-10T04:08:52.353Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T04:08:53.105Z - verbose: [Scene] Open engine (835ms)
+2022-07-10T04:08:53.106Z - verbose: [Scene] Configure engine (1ms)
+2022-07-10T04:08:52.649Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T04:09:40.830Z - warn: Metrics: no valid info
+2022-07-10T04:17:53.342Z - log: [Package] menu@1.0.0 enable
+2022-07-10T04:17:53.345Z - log: [Package] profile@1.0.0 enable
+2022-07-10T04:17:53.361Z - log: [Package] project@1.0.2 enable
+2022-07-10T04:17:53.370Z - log: [Package] messages@1.0.0 enable
+2022-07-10T04:17:53.374Z - log: [Package] program@1.0.0 enable
+2022-07-10T04:17:53.384Z - log: [Package] tester@1.0.0 enable
+2022-07-10T04:17:53.390Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T04:17:54.240Z - log: Setup mods mgr.: 379.549ms
+2022-07-10T04:17:54.244Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T04:17:54.256Z - verbose: [Engine] QuickCompile engine (795ms)
+2022-07-10T04:17:54.261Z - log: [Package] engine@1.0.6 enable
+2022-07-10T04:17:55.292Z - log: [Package] programming@1.0.0 enable
+2022-07-10T04:17:55.657Z - log: [Package] device@1.0.1 enable
+2022-07-10T04:17:55.686Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T04:17:55.713Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T04:17:55.791Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T04:17:55.875Z - log: [Package] scene@1.0.0 enable
+2022-07-10T04:17:56.225Z - log: [Package] server@1.0.0 enable
+2022-07-10T04:17:56.308Z - log: [Package] utils@1.0.0 enable
+2022-07-10T04:18:05.173Z - log: [Package] preview@1.0.1 enable
+2022-07-10T04:18:05.411Z - log: [Package] animator@1.0.0 enable
+2022-07-10T04:18:07.826Z - log: [Package] builder@1.3.2 enable
+2022-07-10T04:18:07.888Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T04:18:07.974Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T04:18:08.078Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T04:18:08.104Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T04:18:08.158Z - log: [Package] about@1.0.0 enable
+2022-07-10T04:18:08.541Z - log: [Package] assets@1.0.0 enable
+2022-07-10T04:18:08.688Z - log: [Package] console@1.0.0 enable
+2022-07-10T04:18:09.328Z - log: [Package] extension@3.0.16 enable
+2022-07-10T04:18:09.476Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T04:18:09.570Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T04:18:09.712Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T04:18:09.832Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T04:18:09.896Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T04:18:09.940Z - log: [Package] process@1.0.0 enable
+2022-07-10T04:18:09.981Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T04:18:10.020Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T04:18:10.089Z - log: [Package] android@1.0.0 enable
+2022-07-10T04:18:10.126Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T04:18:10.153Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T04:18:10.184Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T04:18:10.216Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T04:18:10.244Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T04:18:11.106Z - warn: ios:未查询到开发者信息
+2022-07-10T04:18:11.107Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T04:18:11.110Z - log: [Package] ios@1.0.0 enable
+2022-07-10T04:18:11.139Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T04:18:11.163Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T04:18:11.190Z - log: [Package] linux@1.0.0 enable
+2022-07-10T04:18:11.217Z - log: [Package] mac@1.0.0 enable
+2022-07-10T04:18:11.391Z - log: [Package] native@1.0.0 enable
+2022-07-10T04:18:11.424Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T04:18:11.452Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T04:18:11.480Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T04:18:11.507Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T04:18:11.548Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T04:18:11.759Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T04:18:11.824Z - verbose: [AssetDB] Require engine code (4171ms)
+2022-07-10T04:18:11.857Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T04:18:11.934Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T04:18:11.993Z - log: [Package] windows@1.0.0 enable
+2022-07-10T04:18:12.023Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T04:18:12.793Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T04:18:12.978Z - log: [Package] importer@1.0.0 enable
+2022-07-10T04:18:13.917Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T04:18:13.938Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T04:18:15.197Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T04:18:26.210Z - verbose: [Scene] Require engine code (1ms)
+2022-07-10T04:18:26.259Z - verbose: [Scene] Startup engine (47ms)
+2022-07-10T04:18:26.341Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T04:18:26.951Z - verbose: [Scene] Open engine (692ms)
+2022-07-10T04:18:26.952Z - verbose: [Scene] Configure engine (0ms)
+2022-07-10T04:18:26.481Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T13:55:24.720Z - warn: Metrics: no valid info
+2022-07-10T13:55:39.851Z - log: [Package] menu@1.0.0 enable
+2022-07-10T13:55:39.855Z - log: [Package] profile@1.0.0 enable
+2022-07-10T13:55:39.877Z - log: [Package] project@1.0.2 enable
+2022-07-10T13:55:39.886Z - log: [Package] messages@1.0.0 enable
+2022-07-10T13:55:39.890Z - log: [Package] program@1.0.0 enable
+2022-07-10T13:55:39.901Z - log: [Package] tester@1.0.0 enable
+2022-07-10T13:55:39.908Z - log: [Package] preferences@1.0.0 enable
+2022-07-10T13:55:40.976Z - log: Setup mods mgr.: 447.519ms
+2022-07-10T13:55:40.979Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-07-10T13:55:40.988Z - verbose: [Engine] QuickCompile engine (980ms)
+2022-07-10T13:55:40.993Z - log: [Package] engine@1.0.6 enable
+2022-07-10T13:55:42.145Z - log: [Package] programming@1.0.0 enable
+2022-07-10T13:55:42.528Z - log: [Package] device@1.0.1 enable
+2022-07-10T13:55:42.562Z - log: [Package] ui-kit@1.0.1 enable
+2022-07-10T13:55:42.595Z - log: [Package] engine-extends@1.0.0 enable
+2022-07-10T13:55:42.698Z - log: [Package] asset-db@1.0.0 enable
+2022-07-10T13:55:42.812Z - log: [Package] scene@1.0.0 enable
+2022-07-10T13:55:43.277Z - log: [Package] server@1.0.0 enable
+2022-07-10T13:55:43.347Z - log: [Package] utils@1.0.0 enable
+2022-07-10T13:55:49.748Z - log: [Package] preview@1.0.1 enable
+2022-07-10T13:55:49.832Z - log: [Package] animator@1.0.0 enable
+2022-07-10T13:55:52.168Z - log: [Package] builder@1.3.2 enable
+2022-07-10T13:55:52.266Z - log: [Package] shortcuts@1.0.1 enable
+2022-07-10T13:55:52.377Z - log: [Package] animation-graph@1.0.0 enable
+2022-07-10T13:55:52.474Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-07-10T13:55:52.508Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-07-10T13:55:52.557Z - log: [Package] about@1.0.0 enable
+2022-07-10T13:55:52.599Z - log: [Package] assets@1.0.0 enable
+2022-07-10T13:55:52.709Z - log: [Package] console@1.0.0 enable
+2022-07-10T13:55:53.228Z - log: [Package] extension@3.0.16 enable
+2022-07-10T13:55:53.396Z - log: [Package] hierarchy@1.0.0 enable
+2022-07-10T13:55:53.630Z - log: [Package] inspector@1.0.0 enable
+2022-07-10T13:55:53.768Z - log: [Package] lightmap@1.0.4 enable
+2022-07-10T13:55:53.920Z - log: [Package] node-library@1.0.1 enable
+2022-07-10T13:55:54.009Z - log: [Package] package-asset@1.0.0 enable
+2022-07-10T13:55:54.087Z - log: [Package] process@1.0.0 enable
+2022-07-10T13:55:54.207Z - log: [Package] reference-image@1.0.0 enable
+2022-07-10T13:55:54.279Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-07-10T13:55:54.314Z - log: [Package] android@1.0.0 enable
+2022-07-10T13:55:54.350Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-07-10T13:55:54.385Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-07-10T13:55:54.416Z - log: [Package] cocos-play@1.0.0 enable
+2022-07-10T13:55:54.446Z - log: [Package] huawei-agc@1.0.0 enable
+2022-07-10T13:55:54.474Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-07-10T13:55:58.140Z - warn: ios:未查询到开发者信息
+2022-07-10T13:55:58.141Z - warn: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+Error: Command failed: xcrun security find-identity -v -p codesigning
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
+    at checkExecSyncError (child_process.js:625:11)
+    at Object.execSync (child_process.js:661:15)
+    at Object.execSync (electron/js2c/asar_bundle.js:5:12288)
+    at Object.findSignIdentify (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/builder/utils.ccc:1:4160)
+    at Object.queryTeamInfo (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:331)
+    at Package.load (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/ios/dist/browser/index.ccc:1:235)
+    at Package.execLifeFunc (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:1193)
+    at Package.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:3355)
+    at PackageManager.enable (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:1743)
+    at Object.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/dist/package/browser/index.ccc:1:6330)
+2022-07-10T13:55:58.144Z - log: [Package] ios@1.0.0 enable
+2022-07-10T13:55:58.174Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-07-10T13:55:58.203Z - log: [Package] link-sure@1.0.0 enable
+2022-07-10T13:55:58.234Z - log: [Package] linux@1.0.0 enable
+2022-07-10T13:55:58.264Z - log: [Package] mac@1.0.0 enable
+2022-07-10T13:55:58.493Z - log: [Package] native@1.0.0 enable
+2022-07-10T13:55:58.531Z - log: [Package] ohos@1.0.0 enable
+2022-07-10T13:55:58.598Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-07-10T13:55:58.655Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-07-10T13:55:58.693Z - log: [Package] qtt@1.0.0 enable
+2022-07-10T13:55:58.727Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-07-10T13:55:58.784Z - log: [Package] web-desktop@1.0.0 enable
+2022-07-10T13:55:59.003Z - log: [Package] web-mobile@1.0.0 enable
+2022-07-10T13:55:59.138Z - log: [Package] wechatgame@1.0.1 enable
+2022-07-10T13:55:59.335Z - log: [Package] windows@1.0.0 enable
+2022-07-10T13:55:59.382Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-07-10T13:55:59.873Z - log: [Package] cocos-service@3.0.3 enable
+2022-07-10T13:56:00.002Z - log: [Package] importer@1.0.0 enable
+2022-07-10T13:56:00.659Z - log: [Im-plugin] Check im-plugin version.
+2022-07-10T13:56:00.674Z - log: [Package] im-plugin@3.0.8 enable
+2022-07-10T13:56:01.663Z - log: [Im-plugin] No online info of im-plugin.
+2022-07-10T13:56:06.135Z - verbose: [AssetDB] Require engine code (5454ms)
+2022-07-10T13:56:23.248Z - verbose: [Scene] Require engine code (1ms)
+2022-07-10T13:56:23.251Z - verbose: [Scene] Startup engine (1ms)
+2022-07-10T13:56:23.374Z - log: [Scene] Cocos Creator v3.5.2
+2022-07-10T13:56:24.646Z - verbose: [Scene] Open engine (1395ms)
+2022-07-10T13:56:24.647Z - verbose: [Scene] Configure engine (0ms)
+2022-07-10T13:56:23.798Z - info: [Scene] Forward render pipeline initialized.
+2022-07-10T23:53:01.081Z - warn: Metrics: no valid info

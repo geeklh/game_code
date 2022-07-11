@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "atom",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 31,
+      "height": 31
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 31,
+      "height": 31
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "c4ff3403-1b15-49ed-acbb-5a3733ca5354@6c48a",
+    "packable": true
+  }
+}

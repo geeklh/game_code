@@ -1,0 +1,98 @@
+{
+  "c4ff3403-1b15-49ed-acbb-5a3733ca5354": {
+    "url": "db://assets/images/atom/atom.png",
+    "value": {}
+  },
+  "a60771f0-58d8-472a-892c-fbc230a7d3e7": {
+    "url": "db://assets/images/default-layer-texture.jpg",
+    "value": {}
+  },
+  "2bf8b3e1-a8af-40ab-b193-fc52e7c157fa": {
+    "url": "db://assets/Script",
+    "value": {}
+  },
+  "3a6ff5a6-2f99-4c37-8eb9-5be2e025e9f8": {
+    "url": "db://assets/Script/AtomMove.ts",
+    "value": {}
+  },
+  "3597e249-eab0-4339-abf5-88ed8abecc0b": {
+    "url": "db://assets/Script/CreateAtom.ts",
+    "value": {}
+  },
+  "d4944689-f65c-4eb4-9f15-672bbae21714": {
+    "url": "db://assets/Script/global.d.ts",
+    "value": {}
+  },
+  "b567dfe6-c5c1-499d-8eed-704e156eb547": {
+    "url": "db://assets/scene.scene",
+    "value": {}
+  },
+  "5a7fb954-753d-4188-b422-73438ff64b42": {
+    "url": "db://assets/Prefab/atom.prefab",
+    "value": {}
+  },
+  "5f8be58b-19a8-485c-834c-241a49a2855f": {
+    "url": "db://assets/Prefab",
+    "value": {}
+  },
+  "5c48b7a5-a9dd-48cc-86fa-6bbf75d2b051": {
+    "url": "db://assets/Script/showScore.ts",
+    "value": {}
+  },
+  "b978a2f1-26f8-461b-a6a1-871e2cc09e1a": {
+    "url": "db://assets/scene-001.scene",
+    "value": {}
+  },
+  "97ae383c-3638-4c57-892c-3ff469c2b468": {
+    "url": "db://assets/Prefab/layout.prefab",
+    "value": {}
+  },
+  "3d058528-f7b0-4e23-9dd9-8f2d0f3561f7": {
+    "url": "db://assets/Script/moveToPre.ts",
+    "value": {}
+  },
+  "32f0798c-5f74-47f8-a8bc-aacb1595e60f": {
+    "url": "db://assets/Script/fileBook.ts",
+    "value": {}
+  },
+  "1e3d4973-4849-4511-bc7e-3b7dc57a1589": {
+    "url": "db://assets/images/wheel.png",
+    "value": {}
+  },
+  "f08ee413-eecb-4506-8d29-330fa6d4c70f": {
+    "url": "db://assets/images/wheel/wheelBtn.png",
+    "value": {}
+  },
+  "d95ec647-77ef-48ce-8554-025c45473a48": {
+    "url": "db://assets/images",
+    "value": {}
+  },
+  "6c8d2af5-d732-4c4f-a109-2ff2c13b32c7": {
+    "url": "db://assets/images/atom",
+    "value": {}
+  },
+  "730bac11-2e68-4a94-b81a-714a5b1cc855": {
+    "url": "db://assets/images/wheel",
+    "value": {}
+  },
+  "2aefe46a-c731-4cfb-bec4-1909a7cdaf06": {
+    "url": "db://assets/images/wheel/wheel.png",
+    "value": {}
+  },
+  "d789167a-6355-4cb0-ad32-f422d8c1778f": {
+    "url": "db://assets/Script/Wheel.ts",
+    "value": {}
+  },
+  "f12573bc-3a90-4997-9c25-a8726a773aa9": {
+    "url": "db://assets/Script/wheel",
+    "value": {}
+  },
+  "5213e784-238a-42d1-9681-55d4c0075bc8": {
+    "url": "db://assets/Script/wheel/WheelTable.ts",
+    "value": {}
+  },
+  "97e0d13c-703d-4611-ad83-b55de0420efc": {
+    "url": "db://assets/Script/wheel/WheelBtn.ts",
+    "value": {}
+  }
+}

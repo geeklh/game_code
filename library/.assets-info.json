@@ -1,0 +1,170 @@
+{
+  "/Users/liheng/project/cocos/game_code/assets/Script.meta": {
+    "time": 1657413327693.9595
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script": {
+    "time": 1657462700252.7769,
+    "uuid": "2bf8b3e1-a8af-40ab-b193-fc52e7c157fa",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/AtomMove.ts.meta": {
+    "time": 1657413343149.86
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/AtomMove.ts": {
+    "time": 1657423566033.0771,
+    "uuid": "3a6ff5a6-2f99-4c37-8eb9-5be2e025e9f8",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/CreateAtom.ts.meta": {
+    "time": 1657413353371.5415
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/CreateAtom.ts": {
+    "time": 1657431404788.9712,
+    "uuid": "3597e249-eab0-4339-abf5-88ed8abecc0b",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/global.d.ts.meta": {
+    "time": 1657413369268.034
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/global.d.ts": {
+    "time": 1657415974966.144,
+    "uuid": "d4944689-f65c-4eb4-9f15-672bbae21714",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/scene.scene.meta": {
+    "time": 1657414512301.0923
+  },
+  "/Users/liheng/project/cocos/game_code/assets/scene.scene": {
+    "time": 1657431701834.0383,
+    "uuid": "b567dfe6-c5c1-499d-8eed-704e156eb547",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab.meta": {
+    "time": 1657414981381.3223
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab": {
+    "time": 1657427901623.3682,
+    "uuid": "5f8be58b-19a8-485c-834c-241a49a2855f",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/showScore.ts.meta": {
+    "time": 1657416134083.5933
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/showScore.ts": {
+    "time": 1657431668059.2556,
+    "uuid": "5c48b7a5-a9dd-48cc-86fa-6bbf75d2b051",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab/atom.prefab.meta": {
+    "time": 1657417727956.95
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab/atom.prefab": {
+    "time": 1657417727955.7854,
+    "uuid": "5a7fb954-753d-4188-b422-73438ff64b42",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab/layout.prefab.meta": {
+    "time": 1657427901634.3914
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Prefab/layout.prefab": {
+    "time": 1657462023036.1252,
+    "uuid": "97ae383c-3638-4c57-892c-3ff469c2b468",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/moveToPre.ts.meta": {
+    "time": 1657431453812.9866
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/moveToPre.ts": {
+    "time": 1657431676922.995,
+    "uuid": "3d058528-f7b0-4e23-9dd9-8f2d0f3561f7",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/fileBook.ts.meta": {
+    "time": 1657452485914.5925
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/fileBook.ts": {
+    "time": 1657452485902.8428,
+    "uuid": "32f0798c-5f74-47f8-a8bc-aacb1595e60f",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images.meta": {
+    "time": 1657460604359.9258
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images": {
+    "time": 1657461272076.1611,
+    "uuid": "d95ec647-77ef-48ce-8554-025c45473a48",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/default-layer-texture.jpg.meta": {
+    "time": 1657413397884.364
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/default-layer-texture.jpg": {
+    "time": 1657413316271.8276,
+    "uuid": "a60771f0-58d8-472a-892c-fbc230a7d3e7",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/atom.meta": {
+    "time": 1657461160518.1785
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/atom": {
+    "time": 1657461164576.1826,
+    "uuid": "6c8d2af5-d732-4c4f-a109-2ff2c13b32c7",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/atom/atom.png.meta": {
+    "time": 1657413304724.4365
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/atom/atom.png": {
+    "time": 1657413304695.1443,
+    "uuid": "c4ff3403-1b15-49ed-acbb-5a3733ca5354",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel.meta": {
+    "time": 1657461174824.3745
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel": {
+    "time": 1657461291040.0142,
+    "uuid": "730bac11-2e68-4a94-b81a-714a5b1cc855",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel/wheelBtn.png.meta": {
+    "time": 1657460593320.29
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel/wheelBtn.png": {
+    "time": 1594086244000,
+    "uuid": "f08ee413-eecb-4506-8d29-330fa6d4c70f",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel/wheel.png.meta": {
+    "time": 1657461291289.664
+  },
+  "/Users/liheng/project/cocos/game_code/assets/images/wheel/wheel.png": {
+    "time": 1657461291033.3289,
+    "uuid": "2aefe46a-c731-4cfb-bec4-1909a7cdaf06",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel.meta": {
+    "time": 1657462690420.8887
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel": {
+    "time": 1657462741622.4983,
+    "uuid": "f12573bc-3a90-4997-9c25-a8726a773aa9",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel/WheelTable.ts.meta": {
+    "time": 1657462724419.897
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel/WheelTable.ts": {
+    "time": 1657466355189.6301,
+    "uuid": "5213e784-238a-42d1-9681-55d4c0075bc8",
+    "missing": false
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel/WheelBtn.ts.meta": {
+    "time": 1657462741627.4688
+  },
+  "/Users/liheng/project/cocos/game_code/assets/Script/wheel/WheelBtn.ts": {
+    "time": 1657463328562.7065,
+    "uuid": "97e0d13c-703d-4611-ad83-b55de0420efc",
+    "missing": false
+  }
+}
