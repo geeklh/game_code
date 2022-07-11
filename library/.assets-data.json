@@ -94,5 +94,21 @@
   "97e0d13c-703d-4611-ad83-b55de0420efc": {
     "url": "db://assets/Script/wheel/WheelBtn.ts",
     "value": {}
+  },
+  "497549c1-5659-4269-a604-9eff0c1610b5": {
+    "url": "db://assets/psFile",
+    "value": {}
+  },
+  "447d3ec0-87fb-4cdb-a61b-1bb5b8601384": {
+    "url": "db://assets/psFile/1-01.psd",
+    "value": {}
+  },
+  "befb2807-4945-45b3-8828-3b633d6af9f7": {
+    "url": "db://assets/psFile/2-01.psd",
+    "value": {}
+  },
+  "71041b11-cae1-46ec-91ad-875d2723fbf0": {
+    "url": "db://assets/psFile/3-01.psd",
+    "value": {}
   }
 }
