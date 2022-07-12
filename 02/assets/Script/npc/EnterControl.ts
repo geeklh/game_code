@@ -13,7 +13,7 @@ export class EnterControl extends Component {
     }
 
     whenEnterDown() {
-        director.loadScene("");//跳转
+        director.loadScene("scene_select");//跳转
     }
 }
 
