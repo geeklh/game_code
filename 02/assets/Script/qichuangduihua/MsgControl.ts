@@ -10,5 +10,8 @@ export class MsgControl extends Component {
     update(deltaTime: number) {
         
     }
+
+    setmessage(conten: string) {
+    }
 }
 
